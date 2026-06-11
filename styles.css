@@ -1,1 +1,46 @@
 /*  your css code here. If applicable */
+ body {
+      font-family: Arial, sans-serif;
+      max-width: 500px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    
+    input.valid {
+      background-color: lightgreen;
+    }
+    
+    input.invalid {
+      background-color: pink;
+    }
+    
+    .message {
+      margin-top: 5px;
+      font-size: 12px;
+    }
+    
+    .valid .message {
+      color: green;
+    }
+    
+    .invalid .message {
+      color: red;
+    }
